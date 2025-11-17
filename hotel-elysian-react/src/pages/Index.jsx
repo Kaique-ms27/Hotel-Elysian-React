@@ -3,6 +3,7 @@ import img_sobre_nos from "../assets/images/sobre-nos-image.jpg";
 import img_services from "../assets/images/service-image.jpg";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import "../assets/css_pages/index.css";
 
 export default function Index() {
   return (

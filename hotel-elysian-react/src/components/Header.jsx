@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/images/logo-image.png";
+import '../assets/css_components/Header.css';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
