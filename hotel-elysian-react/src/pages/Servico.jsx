@@ -9,10 +9,10 @@ export default function Servico() {
     const data = new Date();
 
     // Vetor com nomes dos dias da semana
-    const dia = new Array('Domingo', 'Segundo-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado');
+    const dia = ['Domingo', 'Segundo-Feira', 'Terça-Feira', 'Quarta-Feira', 'Quinta-Feira', 'Sexta-Feira', 'Sábado'];
 
     // Vetor com nomes dos meses
-    const mes = new Array('Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro');
+    const mes = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
 
 
     // Função para abrir janela com detalhes do produto

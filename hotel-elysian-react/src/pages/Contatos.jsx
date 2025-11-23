@@ -19,7 +19,6 @@ export default function Contatos() {
           <legend className="texto">Dados Pessoais</legend>
           <label className="sub_texto">* Nome e sobrenome</label>
           <input
-            className="inputs"
             type="text"
             id="nomesobrenome"
             name=""
@@ -30,7 +29,6 @@ export default function Contatos() {
           <br/><br/>
           <label className="sub_texto">E-mail</label>
           <input
-            className="inputs"
             type="email"
             id="email"
             name=""
@@ -40,7 +38,6 @@ export default function Contatos() {
           <br/><br/>
           <label className="sub_texto">Telefone</label>
           <input
-            className="inputs"
             type="tel"
             id="telefone"
             name=""
