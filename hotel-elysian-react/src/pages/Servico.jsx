@@ -159,7 +159,6 @@ export default function Servico() {
         </span>
     </div>
 </div>
-
 <div className="container">
     <div className="card" onClick={() =>
         abrirDetalhes(
@@ -195,7 +194,6 @@ export default function Servico() {
         </span>
     </div>
 </div>
-
 <div className="container">
     <div className="card" onClick={() =>
         abrirDetalhes(
