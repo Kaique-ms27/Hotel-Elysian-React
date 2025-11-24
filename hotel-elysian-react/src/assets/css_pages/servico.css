@@ -1,66 +1,66 @@
 .title_default {
-    text-align: center;
-    padding: 10px 10px 0px 10px;
-    font-style: italic;
-    font-weight: bold;
-    font-family: 'Cormorant Garamond', serif;
-    color: #2A4F3D;
-    font-size: 35pt;
-  }
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", serif;
+  color: #2a4f3d;
+  font-size: 35pt;
+}
 
 .date {
-    text-align: center;
-    padding-bottom: 10px;
-    font-size: 20pt;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    color: #D4AF37;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20pt;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  color: #d4af37;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .card {
-    background: #2A4F3D;
-    width: 782px;
-    border-radius: 25px;
-    box-shadow: 0 4px, 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
+  background: #2a4f3d;
+  width: 782px;
+  border-radius: 25px;
+  box-shadow: 0 4px, 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .container :hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card img {
-    height: 500px;
-    border-radius: 25px;
+  height: 500px;
+  border-radius: 25px;
 }
 
 h2 {
-    color: #D4AF37;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    padding: 15px;
+  color: #d4af37;
+  font-family: "Lora", serif;
+  font-style: italic;
+  padding: 15px;
 }
 .descricao {
-    color: #FFF0DD;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    padding-bottom: 15px;
+  color: #fff0dd;
+  font-family: "Lora", serif;
+  font-style: italic;
+  padding-bottom: 15px;
 }
 
 .preco {
-        color: #FFF0DD;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    padding-bottom: 15px;
+  color: #fff0dd;
+  font-family: "Lora", serif;
+  font-style: italic;
+  padding-bottom: 15px;
 }

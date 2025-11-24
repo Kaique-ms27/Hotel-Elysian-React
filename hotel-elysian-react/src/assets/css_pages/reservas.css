@@ -1,80 +1,96 @@
-  .title_default {
-    text-align: center;
-    padding: 10px 10px 0px 10px;
-    font-style: italic;
-    font-weight: bold;
-    font-family: "Cormorant Garamond", serif;
-    color: #2a4f3d;
-    font-size: 35pt;
-  }
+.title_default {
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", serif;
+  color: #2a4f3d;
+  font-size: 35pt;
+}
 
-  /*Tabela de encomendas*/
-  table{
-    width: 100%;
-    margin-bottom: 2%;
-    table-layout: fixed;
-  }
+/*Tabela de encomendas*/
+table {
+  width: 100%;
+  margin-bottom: 2%;
+  table-layout: fixed;
+}
 
-  td, th {
-    padding: 10px;
-    margin: 0;
-    border: 1px solid #d4af37;
-    text-align: center;
-  }
+td,
+th {
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #d4af37;
+  text-align: center;
+}
 
-  th {
-    font-weight: bold;
-    background-color: #2a4f3d;
-  }
+th {
+  font-weight: bold;
+  color: #fff0dd;
+  border: #0000 2px solid;
+  background-color: #2a4f3d;
+}
 
 /* Formulário */
-form{
-	margin-top: 20px;
+form {
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
-
-form label, form legend{
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
 }
 
-
-.form_pedido{
+.form_pedido {
   margin-left: 5%;
 }
 
-.bloco{
-    display: flex;
-    gap: 5%;
+.bloco {
+  display: flex;
+  gap: 5%;
 }
 
-.bloco_nome, .bloco_qtd, .bloco_pedido, .bloco_unitario{
-    display: flex;
-    flex-direction: column;
+.bloco_nome,
+.bloco_qtd,
+.bloco_pedido,
+.bloco_unitario {
+  display: flex;
+  flex-direction: column;
 }
 
-.bt{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #9a5833;
-    color: white;
-    border-radius: 5px;
-    padding: 7px;
-    cursor: pointer;
-    font-weight: bold;
+.bt_buscar{
+  margin-left: 2%;
+  background-color: #2a4f3d;
+  color: #fff0dd;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bt_adicionar{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #2a4f3d;
+  color: #fff0dd;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 /* caixa */
-input, select{
-    padding: 6px;
-    border-radius: 5px;
-    border: none;
+input,
+select {
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
 }
 
 /* Efeito para linha sumir quando excluida */
-.fadeOut{
+.fadeOut {
   opacity: 0;
   transition: 1s;
 }
@@ -84,9 +100,19 @@ input, select{
   width: 19.5%;
   height: 35px;
   margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.label_filtro {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #d4af37;
 }
 
 /* Esconde a linha para a busca */
 .invisivel {
   display: none;
 }
+
+

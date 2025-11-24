@@ -65,7 +65,8 @@ header {
     z-index: 1;
   }
 
-  .menu-icon.open, .menu-icon.close {
+  .menu-icon.open,
+  .menu-icon.close {
     color: #d4af37;
   }
 
@@ -87,17 +88,15 @@ header {
     text-align: center;
     font-size: 25px;
     padding: 5px 30px 5px 30px;
-    
   }
 
   .navbar a:hover {
     background-color: #2e5743;
-    
   }
 
   .navbar.active {
     right: 0;
-    transition: right 0.3s ease
+    transition: right 0.3s ease;
   }
 
   .overlay {

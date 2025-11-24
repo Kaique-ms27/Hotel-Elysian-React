@@ -5,10 +5,34 @@ import "../assets/css_pages/reservas.css";
 
 export default function Reservas() {
   const [encomendas, setEncomendas] = useState([
-    { id: 1, nome: "Manoela", servico: "Jantar sob Estrelas", qtde: 2, unitario: 600 },
-    { id: 2, nome: "Lívia", servico: "Workshop de Sustentabilidade", qtde: 2, unitario: 180 },
-    { id: 3, nome: "Kaique", servico: "Degustação de Vinhos e Queijos Artesanais", qtde: 2, unitario: 250 },
-    { id: 4, nome: "Pedro Francisco", servico: "Noite de Cinema sob as Árvores", qtde: 1, unitario: 1200 },
+    {
+      id: 1,
+      nome: "Manoela",
+      servico: "Jantar sob Estrelas",
+      qtde: 2,
+      unitario: 600,
+    },
+    {
+      id: 2,
+      nome: "Lívia",
+      servico: "Workshop de Sustentabilidade",
+      qtde: 2,
+      unitario: 180,
+    },
+    {
+      id: 3,
+      nome: "Kaique",
+      servico: "Degustação de Vinhos e Queijos Artesanais",
+      qtde: 2,
+      unitario: 250,
+    },
+    {
+      id: 4,
+      nome: "Pedro Francisco",
+      servico: "Noite de Cinema sob as Árvores",
+      qtde: 1,
+      unitario: 1200,
+    },
   ]);
 
   const [filtro, setFiltro] = useState("");
@@ -25,7 +49,7 @@ export default function Reservas() {
     return formataValor(Number(qtde) * Number(unitario));
   }
 
-  // 🔥 Buscar encomendas via JSON Server
+  // Buscar encomendas via JSON Server
   async function handleBuscarEncomendas() {
     try {
       const resposta = await fetch("http://localhost:3033/reservas_web");
@@ -33,7 +57,6 @@ export default function Reservas() {
 
       // Adiciona na lista atual
       setEncomendas((old) => [...old, ...dados]);
-
     } catch (erro) {
       console.error("Erro ao buscar dados da API:", erro);
     }
@@ -82,7 +105,7 @@ export default function Reservas() {
 
         <section className="conteiner">
           {/* Campo de busca */}
-          <label htmlFor="filtrar-tabela">Buscar:</label>
+          <label className="label_filtro" htmlFor="filtrar-tabela">Buscar:</label>
           <input
             type="text"
             id="filtrar-tabela"
@@ -115,13 +138,19 @@ export default function Reservas() {
                   <td className="servico">{item.servico}</td>
                   <td className="qtde">{item.qtde}</td>
                   <td className="unitario">{formataValor(item.unitario)}</td>
-                  <td className="total">{calculaTotal(item.qtde, item.unitario)}</td>
+                  <td className="total">
+                    {calculaTotal(item.qtde, item.unitario)}
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
 
-          <button id="api-encomenda" className="bt" onClick={handleBuscarEncomendas}>
+          <button
+            id="api-encomenda"
+            className="bt_buscar"
+            onClick={handleBuscarEncomendas}
+          >
             Buscar Encomendas
           </button>
         </section>
@@ -130,15 +159,26 @@ export default function Reservas() {
         <section className="form-pedido">
           <form id="formulario-de-reserva">
             <div className="bloco">
-
               <div className="bloco_nome">
                 <label>Nome: </label>
-                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" />
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  required
+                  placeholder="Digite seu nome"
+                />
               </div>
 
               <div className="bloco_qtd">
                 <label>Quantidade:</label>
-                <input type="number" id="qtde" name="qtde" required placeholder="Qtd" />
+                <input
+                  type="number"
+                  id="qtde"
+                  name="qtde"
+                  required
+                  placeholder="Qtd"
+                />
               </div>
 
               <div className="bloco_produto">
@@ -160,12 +200,17 @@ export default function Reservas() {
 
               <div className="bloco_unitario">
                 <label>Valor Unitário:</label>
-                <input type="text" id="unitario" name="unitario" required placeholder="R$" />
+                <input
+                  type="text"
+                  id="unitario"
+                  name="unitario"
+                  required
+                  placeholder="R$"
+                />
               </div>
-
             </div>
 
-            <button type="button" className="bt" onClick={handleAdicionar}>
+            <button type="button" className="bt_adicionar" onClick={handleAdicionar}>
               Adicionar
             </button>
           </form>

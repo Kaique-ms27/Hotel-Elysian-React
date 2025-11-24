@@ -1,43 +1,43 @@
-import barco1 from '../assets/images/servico/barco1.jpeg';
-import barco2 from '../assets/images/servico/barco2.jpeg';
-import barco3 from '../assets/images/servico/barco3.jpeg';
-import churras1 from '../assets/images/servico/churras1.jpeg';
-import churras2 from '../assets/images/servico/churras2.jpeg';
-import churras3 from '../assets/images/servico/churras3.jpeg';
-import cine1 from '../assets/images/servico/cine1.jpeg';
-import cine2 from '../assets/images/servico/cine2.jpeg';
-import cine3 from '../assets/images/servico/cine3.jpeg';
-import jantar1 from '../assets/images/servico/jantar1.jpeg';
-import jantar2 from '../assets/images/servico/jantar2.jpeg';
-import jantar3 from '../assets/images/servico/jantar3.jpeg';
-import spa1 from '../assets/images/servico/spa1.jpeg';
-import spa2 from '../assets/images/servico/spa2.jpeg';
-import spa3 from '../assets/images/servico/spa3.jpeg';
-import suite1 from '../assets/images/servico/suite1.jpeg';
-import suite2 from '../assets/images/servico/suite2.jpeg';
-import suite3 from '../assets/images/servico/suite3.jpeg';
-import trilha1 from '../assets/images/servico/trilha1.jpeg';
-import trilha2 from '../assets/images/servico/trilha2.jpeg';
-import trilha3 from '../assets/images/servico/trilha3.jpeg';
-import vinho1 from '../assets/images/servico/vinho1.jpeg';
-import vinho2 from '../assets/images/servico/vinho2.jpeg';
-import vinho3 from '../assets/images/servico/vinho3.jpeg';
-import yoga1 from '../assets/images/servico/yoga1.jpeg';
-import yoga2 from '../assets/images/servico/yoga2.jpeg';
-import yoga3 from '../assets/images/servico/yoga3.jpeg';
-import work1 from '../assets/images/servico/work1.jpeg';
-import work2 from '../assets/images/servico/work2.jpeg';
-import work3 from '../assets/images/servico/work3.jpeg';
+import barco1 from "../assets/images/servico/barco1.jpeg";
+import barco2 from "../assets/images/servico/barco2.jpeg";
+import barco3 from "../assets/images/servico/barco3.jpeg";
+import churras1 from "../assets/images/servico/churras1.jpeg";
+import churras2 from "../assets/images/servico/churras2.jpeg";
+import churras3 from "../assets/images/servico/churras3.jpeg";
+import cine1 from "../assets/images/servico/cine1.jpeg";
+import cine2 from "../assets/images/servico/cine2.jpeg";
+import cine3 from "../assets/images/servico/cine3.jpeg";
+import jantar1 from "../assets/images/servico/jantar1.jpeg";
+import jantar2 from "../assets/images/servico/jantar2.jpeg";
+import jantar3 from "../assets/images/servico/jantar3.jpeg";
+import spa1 from "../assets/images/servico/spa1.jpeg";
+import spa2 from "../assets/images/servico/spa2.jpeg";
+import spa3 from "../assets/images/servico/spa3.jpeg";
+import suite1 from "../assets/images/servico/suite1.jpeg";
+import suite2 from "../assets/images/servico/suite2.jpeg";
+import suite3 from "../assets/images/servico/suite3.jpeg";
+import trilha1 from "../assets/images/servico/trilha1.jpeg";
+import trilha2 from "../assets/images/servico/trilha2.jpeg";
+import trilha3 from "../assets/images/servico/trilha3.jpeg";
+import vinho1 from "../assets/images/servico/vinho1.jpeg";
+import vinho2 from "../assets/images/servico/vinho2.jpeg";
+import vinho3 from "../assets/images/servico/vinho3.jpeg";
+import yoga1 from "../assets/images/servico/yoga1.jpeg";
+import yoga2 from "../assets/images/servico/yoga2.jpeg";
+import yoga3 from "../assets/images/servico/yoga3.jpeg";
+import work1 from "../assets/images/servico/work1.jpeg";
+import work2 from "../assets/images/servico/work2.jpeg";
+import work3 from "../assets/images/servico/work3.jpeg";
 
 export const sliders = {
-    barco: [barco1, barco2, barco3],
-    churras: [churras1, churras2, churras3],
-    cine: [cine1, cine2, cine3],
-    jantar: [jantar1, jantar2, jantar3],
-    spa: [spa1, spa2, spa3],
-    suite: [suite1, suite2, suite3],
-    trilha: [trilha1, trilha2, trilha3],
-    vinho: [vinho1, vinho2, vinho3],
-    yoga: [yoga1, yoga2, yoga3],
-    work: [work1, work2, work3],
+  barco: [barco1, barco2, barco3],
+  churras: [churras1, churras2, churras3],
+  cine: [cine1, cine2, cine3],
+  jantar: [jantar1, jantar2, jantar3],
+  spa: [spa1, spa2, spa3],
+  suite: [suite1, suite2, suite3],
+  trilha: [trilha1, trilha2, trilha3],
+  vinho: [vinho1, vinho2, vinho3],
+  yoga: [yoga1, yoga2, yoga3],
+  work: [work1, work2, work3],
 };

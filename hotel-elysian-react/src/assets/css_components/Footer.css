@@ -1,10 +1,10 @@
 /* Footer */
 
 footer {
-  background-color: #2A4F3D;
-  color: #FFFFFF;
+  background-color: #2a4f3d;
+  color: #ffffff;
   height: 202px;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 .title_footer {
@@ -12,8 +12,8 @@ footer {
 }
 .contact_footer {
   text-align: center;
-  margin: 0 auto; 
-  display: block; 
+  margin: 0 auto;
+  display: block;
   padding-top: 55px;
 }
 
@@ -31,5 +31,5 @@ footer li {
 }
 
 footer a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
